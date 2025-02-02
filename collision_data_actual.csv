@@ -1,0 +1,6 @@
+Id_Reference,Id_Intersection,Nom_Intersection,Date,Periode,Heure,Minute,Seconde,Code_Banque,Description_Code_Banque,NBLT,NBT,NBRT,SBLT,SBT,SBRT,EBLT,EBT,EBRT,WBLT,WBT,WBRT,Approche_Nord,Approche_Sud,Approche_Est,Approche_Ouest,Localisation_X,Localisation_Y,Longitude,Latitude
+101,201,Street A & B,2024-02-01,AM,8,15,5,1,Collision,1,3,0,2,3,1,2,1,3,1,0,3,Bus,Pietons,Autos,Velos,300,800,-73.5673,45.5017
+102,202,Street C & D,2024-02-01,AM,9,30,20,2,Near Miss,2,1,1,1,2,0,1,2,0,3,1,2,Pietons,Bus,Velos,Camions porteurs,400,900,-73.56,45.5025
+103,203,Street E & F,2024-02-01,AM,10,45,35,3,Accident,3,2,0,0,1,1,3,0,1,2,3,1,Camions porteurs,Autos,Bus,Pietons,500,1000,-73.575,45.498
+104,204,Street G & H,2024-02-01,AM,11,50,40,4,Minor Hit,1,2,1,1,0,2,0,3,2,0,2,0,Autos,Velos,Pietons,Bus,600,1100,-73.562,45.505
+105,205,Street I & J,2024-02-01,AM,12,10,55,5,Major Hit,0,1,2,3,1,3,1,1,3,1,1,1,Velos,Camions porteurs,Camions porteurs,Autos,700,1200,-73.57,45.507
