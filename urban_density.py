@@ -26,7 +26,7 @@ def style_function(feature):
         color = "grey"
     else:
         color = colormap(indice)
-
+    
     return {
         "fillColor": color,
         "color": "black",  # Outline color
@@ -40,5 +40,7 @@ folium.GeoJson(json_file,
                tooltip=folium.GeoJsonTooltip(fields=["indice"],
                                              localize=True,
                                              sticky=True)).add_to(map)
+
+# colormap.caption()
 
 map.save("maps/urban_density.html")
