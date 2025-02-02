@@ -77,7 +77,7 @@ for year in col_routieres["YEAR"].unique():
             fill=True,
             fill_color=get_marker_color(row["NB_MORTS"], row["NB_BLESSES_GRAVES"], row["NB_BLESSES_LEGERS"]),
             fill_opacity=0.8,
-            popup=folium.Popup(f"Year: {year} Fatalities: {row['NB_MORTS']} Grave Injuries: {row['NB_BLESSES_GRAVES']} Injuries: {row['NB_BLESSES_LEGERS']}", parse_html=True),
+            popup=folium.Popup(f"Date: {row['DT_ACCDN'][:11]} Fatalities: {row['NB_MORTS']} Grave Injuries: {row['NB_BLESSES_GRAVES']} Injuries: {row['NB_BLESSES_LEGERS']}", parse_html=True),
         ).add_to(cluster)
 
     # Save the final map
